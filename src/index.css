@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  font-family: 'AmpleSoft Pro',-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html { font-size: 62.5%; }
+p{
+  margin: unset;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.p-component{
+  font-family: 'AmpleSoft Pro' !important;
+}
+.create-success-dialog{
+
+}
+.create-success-dialog .p-dialog-title{
+  font-size: 2.4rem !important;
+}
+.create-success-dialog .p-dialog-content{
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+.create-success-dialog .dialog-emphasis{
+  color: #ffb430;
+}
+.p-toast{
+  width: 38rem !important;
+}
+.p-toast-message-text{
+  font-size: 1.4rem;
+}
+.p-error{
+  font-size: 1.2rem;
+}
+.p-inputgroup-addon.p-invalid{
+  border-color: #e24c4c;
+}
+
+.settings-form .p-dialog-content{
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.settings-form .form >:not(:last-child){
+  margin-bottom: 2rem;
+}
+.settings-form .p-dialog-title{
+  font-size: 2.4rem !important;
+}
+.field-radiobutton{
+  display: flex;
+  align-items: center;
+}
+.field-radiobutton >:not(:last-child){
+  margin-right: 2rem;
+}
+.field-radiobutton label{
+  font-family: 'Fredoka One', cursive;
+  font-size: 2rem;
+ }
+ .field-radiobutton .label--1{
+  color: #e24c4c;
+ }
+ .field-radiobutton .label--2{
+  color: #ffb430;
+ }
+.radio-group{
+  display: flex;
+  align-items: center;
+}
+.radio-group >:not(:last-child){
+  margin-right: 1.5rem;
+}
+.custom-radio-label{
+  position: relative;
+  display: block;
+  align-items: center;
+  cursor: pointer;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 6px;
+  background-color: #D3D3D3;
+  color: #fff;
+
+}
+.radio-group input:checked + .custom-radio-label{
+  background-color: #ffb430;
+}
+.custom-radio-label{
+  font-size: 2rem;
+}
+.custom-radio-label--1::after{
+  content: 'X';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Fredoka One', cursive;
+}
+.custom-radio-label--2::after{
+  content: 'O';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Fredoka One', cursive;
+}
+.input-heading{
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+
+.input-heading >:not(:last-child){
+  margin-right: 1.5rem;
+}
+.input-heading .pi{
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.p-tooltip-text{
+  font-size: 1.4rem;
+}
+.p-dropdown, .p-inputnumber{
+  width: 80% !important;
+}
+.p-dropdown-label, .p-dropdown-panel, .p-inputnumber-input{
+  font-size: 1.4rem !important;
+}
+
+.p-button{
+  font-size: 1.6rem !important;
+}
+.settings-form .grid-form{
+  display: flex;
+  flex-direction: column;
+}
+.grid-form label{
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+.grid-form input{
+  height: 3.9rem;
+}
