@@ -1,0 +1,6 @@
+ envVars:
+      - key: REACT_APP_HOST_NAME
+        fromService:
+          name: tictactoe-server
+          type: web
+          envVarKey: RENDER_EXTERNAL_HOSTNAME
