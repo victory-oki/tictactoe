@@ -6,8 +6,8 @@ services:
     buildCommand: npm install; npm run build
     staticPublishPath: ./build
     envVars:
-      - key: REACT_APP_HOST_NAME
+      - key: REACT_APP_SERVER_URL
         fromService:
           name: tictactoe-server
           type: web
-          envVarKey: RENDER_EXTERNAL_HOSTNAME
+          envVarKey: RENDER_EXTERNAL_URL
