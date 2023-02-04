@@ -2,8 +2,8 @@ services:
   # A Docker web service
   - type: web
     name: webapp
-
- envVars:
+    env: static
+    envVars:
       - key: REACT_APP_HOST_NAME
         fromService:
           name: tictactoe-server
